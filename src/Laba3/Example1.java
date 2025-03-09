@@ -4,9 +4,9 @@ public class Example1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a number between 1 and 7: ");
-        int day = in.nextInt();
+        int num = in.nextInt();
 
-        switch (day) {
+        switch (num) {
             case 1:
                 System.out.println("Monday");
                 break;
